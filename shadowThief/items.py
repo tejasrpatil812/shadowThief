@@ -8,7 +8,11 @@
 import scrapy
 
 
-class ShadowthiefItem(scrapy.Item):
+class ShadowThiefItem(scrapy.Item):
     # define the fields for your item here like:
-    # name = scrapy.Field()
+    title = scrapy.Field()
+    position = scrapy.Field()
+    author = scrapy.Field()
+    tags = scrapy.Field()
+    source = scrapy.Field()
     pass
